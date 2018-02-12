@@ -1,0 +1,14 @@
+{
+    "name":"test-task",
+    "minimum-stability":"dev",
+    "require": {
+        "gregwar/captcha": "1.*"
+    },
+    "autoload":{
+        "psr-4":{
+          "Core\\": "Core",
+          "App\\Controller\\":"app/controllers",
+          "App\\Model\\":"app/models"
+        }
+    }
+}
